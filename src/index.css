@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.add-page,
+.edit-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-page form,
+.edit-page form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.add-page form input,
+.edit-page form input {
+  margin: 10px;
+}
+
+.add-page form button,
+.edit-page form button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.main-page {
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+.phones {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* detail page */
+
+.detail-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.detail-image {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+
+.detail-image img {
+  width: 90%;
+  object-fit: contain;
+}
+
+.characteristic strong {
+  width: 100px;
+  display: inline-block;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination ul {
+  display: flex;
+  list-style-type: none;
+}

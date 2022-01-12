@@ -1,0 +1,212 @@
+{
+  "sliderItems": [
+    {
+      "bg": "f5fafd",
+      "id": 1,
+      "img": "https://ae01.alicdn.com/kf/H2c33989ccb0946caa91ed53a1561e7ab1.jpg",
+      "title": "SUMMER SALE",
+      "desc": "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS."
+    },
+    {
+      "id": 2,
+      "img": "https://ae01.alicdn.com/kf/H35598c74fc1a4db192417be7bf64ab79l.jpg",
+      "title": "AUTUMN COLLECTION",
+      "desc": "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+      "bg": "fcf1ed"
+    },
+    {
+      "id": 3,
+      "img": "https://ae01.alicdn.com/kf/H5c430c3800f040a6b48c4d9a1ce87b9e4.jpg",
+      "title": "LOUNGEWEAR LOVE",
+      "desc": "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+      "bg": "fbf0f4"
+    }
+  ],
+  "popularProducts": [
+    {
+      "id": 1,
+      "img": "https://ae01.alicdn.com/kf/H0593bc2396784ecdba4751953bde0868Z.jpg"
+    },
+    {
+      "id": 2,
+      "img": "https://ae01.alicdn.com/kf/H6ed3f75e3ec54bd899841f35d5e38310t.jpg"
+    },
+    {
+      "id": 3,
+      "img": "https://ae01.alicdn.com/kf/H084a8f34862d40c7a02165308af4e243O.jpg"
+    },
+    {
+      "id": 4,
+      "img": "https://ae01.alicdn.com/kf/H0604d75302194e7688011e56971c9c73O.jpg"
+    },
+    {
+      "id": 5,
+      "img": "https://ae01.alicdn.com/kf/H24041fa7c05a490d92d416a13bb7d0c85.jpg"
+    },
+    {
+      "id": 6,
+      "img": "https://ae01.alicdn.com/kf/H3ebee192374249dabb2aa6a33bedbc5at.jpg"
+    },
+    {
+      "id": 7,
+      "img": "https://ae01.alicdn.com/kf/H0315702e437b4906a8103b5fb73f1a96O.jpg?width=800&height=999&hash=1799"
+    },
+    {
+      "id": 8,
+      "img": "https://ae01.alicdn.com/kf/Hdcc28767c41d48b9b13c15d06b0e9dbdC.jpg"
+    }
+  ],
+  "merch": [
+    {
+      "title": "Formal",
+      "imageURL": "https://ae03.alicdn.com/kf/H65795df69dfb478989feca4f07ac1ffdF.jpg",
+      "price": "322",
+      "category": "formal",
+      "id": 1
+    },
+    {
+      "title": "Casual",
+      "imageURL": "https://ae01.alicdn.com/kf/H6a47df48b22c4a0bad54483779e0cbe10.jpg",
+      "price": "3700",
+      "category": "casual",
+      "id": 2
+    },
+    {
+      "title": "Suit",
+      "imageURL": "https://ae01.alicdn.com/kf/H76354f0bc13548839d634047481d7e20s.jpg",
+      "price": "5600",
+      "category": "suit",
+      "id": 3
+    },
+    {
+      "title": "Formal",
+      "imageURL": "https://ae01.alicdn.com/kf/Hefa2a56bc4194174bfa241c47ace58706.jpg",
+      "price": "3500",
+      "category": "formal",
+      "id": 4
+    },
+    {
+      "title": "Suit",
+      "imageURL": "https://ae01.alicdn.com/kf/He20561edacbf4d8c9895607d2ed687abP.jpg",
+      "price": "450",
+      "category": "suit",
+      "id": 5
+    },
+    {
+      "title": "Formal",
+      "imageURL": "https://ae03.alicdn.com/kf/H11b0813c0d1b412b9b0358aba3241ffcn.jpg",
+      "price": "4500",
+      "category": "",
+      "id": 6
+    },
+    {
+      "title": "Casual",
+      "imageURL": "https://ae01.alicdn.com/kf/Hfaa4bf5d3caf48f487d8a470a4b9ff43u.jpg",
+      "price": "4500",
+      "category": "casual",
+      "id": 7
+    },
+    {
+      "title": "Formal",
+      "imageURL": "https://ae01.alicdn.com/kf/H0562830527084cedb3ac4ef6b337382fo.jpg",
+      "price": "4500",
+      "category": "formal",
+      "id": 8
+    },
+    {
+      "title": "Suit",
+      "imageURL": "https://ae01.alicdn.com/kf/H93756bf11fe54f82a60151a6b54fcf62v.jpg?width=795&height=2997&hash=3792",
+      "price": "6600",
+      "category": "suit",
+      "id": 9
+    },
+    {
+      "title": "Casual",
+      "imageURL": "https://ae01.alicdn.com/kf/He00cecd83e364b9b83ba3f21e1dfa8549.jpg",
+      "price": "2500",
+      "category": "casual",
+      "id": 10
+    },
+    {
+      "title": "Formal",
+      "imageURL": "https://ae01.alicdn.com/kf/Hab6a8d58597843c78f7a86f0f2e8bceae.jpg?width=1000&height=1000&hash=2000",
+      "price": "3800",
+      "category": "formal",
+      "id": 11
+    },
+    {
+      "title": "Casual",
+      "imageURL": "https://ae01.alicdn.com/kf/Ha453b286453149aea3255c776b61d2e1L.jpeg",
+      "price": "1200",
+      "category": "casual",
+      "id": 12
+    },
+    {
+      "title": "Formal",
+      "imageURL": "https://ae01.alicdn.com/kf/H693645ed73ff40e4bd5851a64a603a78N.jpg",
+      "price": "2300",
+      "category": "formal",
+      "id": 13
+    },
+    {
+      "title": "Casual",
+      "imageURL": "https://ae01.alicdn.com/kf/H04391ffb6d544f52a9dbb0ad39bd7f46L.jpg?width=790&height=826&hash=1616",
+      "price": "1500",
+      "category": "casual",
+      "id": 14
+    },
+    {
+      "title": "Casual",
+      "imageURL": "https://ae01.alicdn.com/kf/Haed766d099c24895a95921c1442cb6a0t.jpg",
+      "price": "800",
+      "category": "Casual",
+      "id": 15
+    },
+    {
+      "title": "Casual",
+      "imageURL": "https://ae01.alicdn.com/kf/H0575c08e20514c6295c7fb92ed14081aL.jpg",
+      "price": "990",
+      "category": "Casual",
+      "id": 17
+    },
+    {
+      "title": "Casual",
+      "imageURL": "https://ae01.alicdn.com/kf/H363aa09bd8df4ee29efb0d69200b42add.jpg?width=800&height=800&hash=1600",
+      "price": "1207",
+      "category": "casual",
+      "id": 18
+    },
+    {
+      "title": "",
+      "imageURL": "https://yobte.ru/uploads/posts/2019-11/devushki-s-estestvennoj-krasotoj-115-foto-10.jpg",
+      "price": "34567",
+      "category": "t-shirt",
+      "id": 19
+    }
+  ],
+  "users": [
+    {
+      "username": "luiza",
+      "email": "luiza841@mail.ru",
+      "uid": "lIjgrJJM5SNfGMqgcKF3tSZ5Sgg1",
+      "admin": "true",
+      "imageURL": "https://pp.userapi.com/c621700/v621700993/355c6/VNtu_8CMOhA.jpg",
+      "id": 1
+    },
+    {
+      "username": "lu",
+      "email": "luiza842@mail.ru",
+      "uid": "NqooxewXSwV9wxNPkWSJhSaGZNw2",
+      "imageURL": "https://pp.userapi.com/c621700/v621700993/355c6/VNtu_8CMOhA.jpg",
+      "id": 1
+    },
+    {
+      "username": "luiza",
+      "email": "luiza8411@mail.ru",
+      "uid": "yafYohtSanc4zWQQPvmXVrQfLH13",
+      "imageURL": "https://m.media-amazon.com/images/I/A13usaonutL._AC_CLa%7C2140%2C2000%7C51ZMWgQUh6L.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_UX569_.png",
+      "id": 2
+    }
+  ],
+  "comments": []
+}

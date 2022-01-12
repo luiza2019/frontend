@@ -1,0 +1,182 @@
+.merchPage {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  /* background: white; */
+}
+
+.rightSideMerch {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border-left: 0.05px solid rgba(51, 49, 49, 0);
+  padding-left: 20px;
+  margin-right: 20px;
+}
+
+.merchNavbar {
+  width: 100%;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  justify-content: space-evenly;
+  border-bottom: 0.05px solid rgb(117, 117, 117);
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  font-size: 28px;
+}
+
+.merchCard {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.m-n {
+  display: flex;
+  margin-top: 15px;
+}
+
+.merchList {
+  color: white;
+}
+
+.merchCardList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.addMerchModal {
+  color: white;
+}
+
+.form {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: white;
+}
+.l-t {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.category {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.MerchHeaderText {
+  font-size: 500;
+  padding-top: 10px;
+  color: teal;
+}
+
+.pagination {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.detail-image {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+
+.detail-image img {
+  width: 90%;
+  object-fit: contain;
+}
+
+.characteristic strong {
+  width: 100px;
+  display: inline-block;
+}
+.main-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+@media only screen and (max-width: 475px) {
+  .merchPage {
+    width: 100%;
+  }
+
+  .rightSideMerch {
+    width: 100%;
+  }
+}
+.p {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .merchPage {
+    width: 100%;
+  }
+
+  .rightSideMerch {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .merchPage {
+    width: 100%;
+  }
+
+  .rightSideMerch {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .merchPage {
+    width: 100%;
+  }
+
+  .rightSideMerch {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .merchPage {
+    width: 100%;
+  }
+
+  .rightSideMerch {
+    width: 100%;
+  }
+}
