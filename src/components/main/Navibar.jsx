@@ -148,10 +148,16 @@ const Navibar = () => {
             </MenuItem>
           ) : (
             <>
-              <Link to="/register">
+              <Link
+                to="/register"
+                style={{ textDecoration: "none", color: "black" }}
+              >
                 <MenuItem>REGISTER</MenuItem>
               </Link>
-              <Link to="/login">
+              <Link
+                to="/login"
+                style={{ textDecoration: "none", color: "black" }}
+              >
                 <MenuItem>SIGN IN</MenuItem>
               </Link>
             </>

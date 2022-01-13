@@ -70,6 +70,7 @@ const MerchContextProvider = (props) => {
       if (filter) filter += `&page=${page}`;
       else filter += `?page=${page}`;
 
+      //!  get запрос
       const { data } = await $axios(`product${filter}`);
       if (filter1) filter1 += `&limit=10000`;
       else filter1 += `?limit=10000`;
@@ -133,6 +134,8 @@ const MerchContextProvider = (props) => {
       console.log(e);
     }
   };
+
+  //! DELETE
   const deleteOneMerch = async (id) => {
     try {
       await $axios.delete("/product/" + id);
@@ -148,6 +151,8 @@ const MerchContextProvider = (props) => {
     };
     dispatch(action);
   };
+
+  //! update
   const getProductsToEdit = async (id) => {
     try {
       const response = await $axios.get(`product/${id}`);
@@ -161,6 +166,7 @@ const MerchContextProvider = (props) => {
     }
   };
 
+  //! PUTCH
   const saveEditedProducts = async (editedProducts) => {
     try {
       await $axios.patch(`product/${editedProducts.id}`, editedProducts);

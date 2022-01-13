@@ -5,7 +5,7 @@ import $axios from "../axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Pagination from "../components/Pagination";
 import { useNavigate } from "react-router";
-
+import { Link } from "react-router-dom";
 const AddPage = () => {
   const { getMerch, addMerch, merch, deleteOneMerch } =
     useContext(merchContext);
@@ -48,6 +48,13 @@ const AddPage = () => {
 
   const handleClick = async () => {
     addMerch(inputs);
+    setInputs({
+      name: "",
+      price: "",
+      brand: "",
+      type: "",
+      img: "",
+    });
   };
 
   const handleDelete = async (id) => {
@@ -60,13 +67,19 @@ const AddPage = () => {
   return (
     <>
       <div>
-        <h3>Add products</h3>
+        <Link to="/products/:category" style={{ textDecoration: "none" }}>
+          <h3 className="title" style={{ textAlign: "center", color: "teal" }}>
+            Add products
+          </h3>
+        </Link>
       </div>
       <div>
         <Form
           style={{ width: "60%", margin: "0 auto" }}
           className="bg-light p-4"
-          // onSubmit={handleSubmit}
+          onSubmit={(e) => {
+            e.preventDefault();
+          }}
         >
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <Form.Label>Введите название</Form.Label>
@@ -128,13 +141,26 @@ const AddPage = () => {
               <option value="Suit">Suit</option>
             </Form.Select>
           </Form.Group>
+          <center>
+            <Button
+              onClick={handleClick}
+              onSubmit={(e) => {
+                e.preventDefault();
+              }}
+              variant="primary"
+            >
+              Create
+            </Button>
+          </center>
         </Form>
       </div>
-      <center>
-        <button onClick={handleClick}>Create</button>
-      </center>
 
-      <div className="main-cards">
+      <div
+        className="main-cards"
+        style={{
+          justifyContent: "space-between",
+        }}
+      >
         {merch ? (
           merch.map((p) => (
             <div key={p.id} className="main-cardss">
@@ -145,19 +171,23 @@ const AddPage = () => {
                   <Card.Text>{p.price}</Card.Text>
                   <Card.Title>{p.brand}</Card.Title>
                   <Card.Title>{p.type}</Card.Title>
+                  <div className="btn">
+                    <Button
+                      variant="primary"
+                      onClick={() => {
+                        navigate(`/detail/${p.id}`);
+                      }}
+                    >
+                      Update
+                    </Button>
 
-                  <Button
-                    variant="primary"
-                    onClick={() => {
-                      navigate(`/detail/${p.id}`);
-                    }}
-                  >
-                    Update
-                  </Button>
-
-                  <Button onClick={() => handleDelete(p.id)} variant="primary">
-                    Delete
-                  </Button>
+                    <Button
+                      onClick={() => handleDelete(p.id)}
+                      variant="primary"
+                    >
+                      Delete
+                    </Button>
+                  </div>
                 </Card.Body>
               </Card>
             </div>
@@ -166,6 +196,7 @@ const AddPage = () => {
           <></>
         )}
       </div>
+      <Pagination />
     </>
   );
 };

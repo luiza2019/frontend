@@ -54,6 +54,7 @@ const AllProducts = ({ p }) => {
     addAndDontDeleteMerchInCart,
     addAndDeleteMerchInCart,
   } = useContext(merchContext);
+
   useEffect(() => {
     getMerch();
   }, []);
@@ -107,9 +108,11 @@ const AllProducts = ({ p }) => {
 
   return (
     <div>
-      handleLogOut
       <div className="merchNavbar">
-        <Link to="/" style={{ textDecoration: "none" }}>
+        <Link
+          to="/"
+          style={{ textDecoration: "none", justifyContent: "center" }}
+        >
           <h2 className="MerchHeaderText">All Products</h2>
         </Link>
 
@@ -260,8 +263,10 @@ const AllProducts = ({ p }) => {
           <></>
         )}
       </div>
-      <div className="p">
-        <Pagination />
+      <div className="pagination">
+        <div pagination-div>
+          <Pagination />
+        </div>
       </div>
     </div>
   );

@@ -17,30 +17,40 @@ const Pagination = () => {
   }
   console.log(merch);
   return (
-    <div className="pagination-div">
-      <ul>
-        {pageNumbers.map((page) => (
-          <li key={page}>
-            <Button
-              variant="outline-success"
-              style={{
-                backgroundColor: "#1C374C",
-                border: "none",
-                padding: "0 20px",
-                display: "inline-block",
-                height: "30px",
-                marginTop: "13px",
-                marginRight: "10px",
-              }}
-              onClick={() => {
-                handlePage(page);
-              }}
-            >
-              {page}
-            </Button>
-          </li>
-        ))}
-      </ul>
+    <div
+      className="pagination-1"
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        flexDirection: "row",
+      }}
+    >
+      <div className="pagination-div">
+        <ul>
+          {pageNumbers.map((page) => (
+            <li key={page}>
+              <Button
+                variant="outline-success"
+                style={{
+                  backgroundColor: "teal",
+                  border: "none",
+                  padding: "0 20px",
+                  display: "inline-block",
+                  height: "30px",
+                  marginTop: "13px",
+                  marginRight: "10px",
+                  color: "white",
+                }}
+                onClick={() => {
+                  handlePage(page);
+                }}
+              >
+                {page}
+              </Button>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };

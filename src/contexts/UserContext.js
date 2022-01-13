@@ -1,6 +1,5 @@
 import React, { useReducer } from "react";
 
-// import { APIusers } from "../const/config";
 import axios from "axios";
 import $axios from "../axios";
 
@@ -27,7 +26,6 @@ const reducer = (state = INIT_STATE, action) => {
 
 const UserContextProvider = (props) => {
   const [state, dispatch] = useReducer(reducer, INIT_STATE);
-  // AUTH with google
 
   const signUpUser = async (email, password) => {
     try {
@@ -63,11 +61,7 @@ const UserContextProvider = (props) => {
     try {
       let res = await $axios("user");
       let user = res.data.find((user) => user.email === email);
-      // if (user) {
-      // if (user.password !== password) {
-      //     console.log("wrong password");
-      //     return
-      // }
+
       let { data } = await $axios.post("user/login", {
         password,
         email,
